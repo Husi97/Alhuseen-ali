@@ -3,6 +3,7 @@ body{
   padding: 0;
   background: url(code.jpg) no-repeat;
   background-color: lightgray;
+  height: 100%;
   background-size: cover;
 }
 .box{
@@ -12,7 +13,6 @@ body{
   text-align: center;
   margin: auto;
   margin-top: 5%;
-  margin-down: 5%;
   color: white;
   font-family: 'Century Gothic',sans-serif;
 }
