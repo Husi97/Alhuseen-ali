@@ -9,8 +9,8 @@ body{
   background-size: cover;
 }
 @keyframes smoke {
-    from {  transform: translateX(-200px)    }
-    to   {  transform: translateX(0px) }
+    from {  transform: translateY(-200px)    }
+    to   {  transform: translateY(0px) }
 }
 .box{
   width: 450px;
@@ -22,7 +22,7 @@ body{
   color: white;
   font-family: 'Century Gothic',sans-serif;
   animation-name: smoke;                /** Name der Animation **/
-  animation-duration: 3.5s; 
+  animation-duration: 3s; 
   
 }
 .box-img{
