@@ -8,6 +8,10 @@ body{
   background-color: lightgray; 
   background-size: cover;
 }
+@keyframes smoke {
+    from {  transform: translateX(-200px)    }
+    to   {  transform: translateX(0px) }
+}
 .box{
   width: 450px;
   background: rgba(0, 0, 0, 0.7);
@@ -17,6 +21,9 @@ body{
   margin-top: 5%;
   color: white;
   font-family: 'Century Gothic',sans-serif;
+  animation-name: smoke;                /** Name der Animation **/
+  animation-duration: 3.5s; 
+  
 }
 .box-img{
   border-radius: 50%;
