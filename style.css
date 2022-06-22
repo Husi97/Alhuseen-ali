@@ -3,7 +3,7 @@ body{
   padding: 0;
   background: url(code.jpg) no-repeat;
   background-color: lightgray;
-  background-size: cover;
+  background-size: auto;
 }
 @keyframes smoke {
     from {  transform: translateY(200px)    }
